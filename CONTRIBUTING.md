@@ -1,4 +1,4 @@
-# 🤝 Contributing to CultureConnect
+#  Contributing to CultureConnect
 
 Welcome to **CultureConnect** — a project that bridges language and culture through idioms, proverbs, and global quotes. We’re excited that you want to contribute!
 
@@ -6,7 +6,7 @@ This guide explains how our team works, how to contribute efficiently, and how w
 
 ---
 
-## 🧑‍🤝‍🧑 Team Roles
+##  Team Roles
 
 ### 🔌 P. Laxmikanth Reddy – API Integration Lead
 - Connects to **Wiktionary** and **Wikiquote** APIs
