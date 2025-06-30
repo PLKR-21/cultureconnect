@@ -2,57 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- SEO Improvements -->
+  <meta name="description" content="Learn languages through idioms, proverbs, and quotes with CultureConnect" />
+  <meta name="keywords" content="language learning, idioms, proverbs, quotes, culture" />
+  <meta name="author" content="CultureConnect Team" />
+  <!-- Open Graph for Social Media -->
+  <meta property="og:title" content="CultureConnect - Language Learning" />
+  <meta property="og:description" content="Explore idioms, proverbs, and quotes to learn languages interactively." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-site-url.com" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="CultureConnect - Language Learning" />
+  <meta name="twitter:description" content="Explore idioms, proverbs, and quotes to learn languages interactively." />
+  <!-- Security: Basic CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self' https://your-backend-url.com;">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
   <title>CultureConnect</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <div class="container">
-    <header>
+  <!-- Fallback for no JavaScript -->
+  <noscript>
+    <div class="no-js-warning">
+      <p>JavaScript is disabled. Please enable JavaScript to use CultureConnect fully.</p>
+    </div>
+  </noscript>
+
+  <div class="container" role="main">
+    <!-- Header Section -->
+    <header role="banner">
       <h1>🌐 CultureConnect</h1>
       <p>Learn language through idioms, proverbs, and quotes</p>
-
-      <label for="language-select">🌍 Choose Language:</label>
-      <select id="language-select">
-        <option value="en">English</option>
-        <option value="hi">Hindi</option>
-        <option value="te">Telugu</option>
-      </select>
+      <div class="language-selector">
+        <label for="language-select" id="language-label">🌍 Choose Language:</label>
+        <select id="language-select" aria-labelledby="language-label">
+          <option value="en">English</option>
+          <option value="hi">Hindi</option>
+          <option value="te">Telugu</option>
+        </select>
+      </div>
     </header>
 
-    <main>
-      <!-- Idiom of the Day -->
-      <section id="idiom-section">
+    <!-- Main Content -->
+    <main role="main">
+      <!-- Idiom of the Day Section -->
+      <section id="idiom-section" aria-live="polite">
         <h2>📝 Idiom of the Day</h2>
-        <p><strong>Idiom:</strong> <span id="idiom-text">Loading...</span></p>
+        <p><strong>Idiom:</strong> <span id="idiom-text" lang="en">Loading...</span></p>
         <p><strong>Meaning:</strong> <span id="idiom-meaning">Loading...</span></p>
-        <p><strong>Pronunciation:</strong> <button id="play-audio">🔊 Play</button></p>
+        <p><strong>Pronunciation:</strong> <button id="play-audio" aria-label="Play pronunciation">🔊 Play</button></p>
       </section>
 
       <!-- Quote Section -->
-      <section id="quote-section">
+      <section id="quote-section" aria-live="polite">
         <h2>💬 Related Quote</h2>
         <blockquote>
           <p id="quote-text">Loading...</p>
-          <footer>— <span id="quote-author">Unknown</span></footer>
+          <footer>— <cite id="quote-author">Unknown</cite></footer>
         </blockquote>
       </section>
 
       <!-- Quiz Section -->
-      <section id="quiz-section">
+      <section id="quiz-section" aria-live="polite">
         <h2>❓ Quiz Yourself</h2>
         <div id="quiz-container">
           <p id="quiz-question">Loading question...</p>
-          <ul id="quiz-options"></ul>
+          <ul id="quiz-options" role="listbox"></ul>
         </div>
       </section>
     </main>
 
-    <footer>
-      <p>© 2025 CultureConnect Team | Built with Wiktionary + Wikiquote</p>
+    <!-- Footer Section -->
+    <footer role="contentinfo">
+      <p>© <span id="current-year"></span> CultureConnect Team | Built with Wiktionary + Wikiquote</p>
     </footer>
   </div>
 
-  <script src="js/app.js"></script>
+  <!-- Defer JavaScript for performance -->
+  <script defer src="js/app.js"></script>
+  <!-- Dynamic Footer Year -->
+  <script>
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
