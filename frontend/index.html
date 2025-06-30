@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CultureConnect</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌐 CultureConnect</h1>
+      <p>Learn language through idioms, proverbs, and quotes</p>
+
+      <label for="language-select">🌍 Choose Language:</label>
+      <select id="language-select">
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+        <option value="te">Telugu</option>
+      </select>
+    </header>
+
+    <main>
+      <!-- Idiom of the Day -->
+      <section id="idiom-section">
+        <h2>📝 Idiom of the Day</h2>
+        <p><strong>Idiom:</strong> <span id="idiom-text">Loading...</span></p>
+        <p><strong>Meaning:</strong> <span id="idiom-meaning">Loading...</span></p>
+        <p><strong>Pronunciation:</strong> <button id="play-audio">🔊 Play</button></p>
+      </section>
+
+      <!-- Quote Section -->
+      <section id="quote-section">
+        <h2>💬 Related Quote</h2>
+        <blockquote>
+          <p id="quote-text">Loading...</p>
+          <footer>— <span id="quote-author">Unknown</span></footer>
+        </blockquote>
+      </section>
+
+      <!-- Quiz Section -->
+      <section id="quiz-section">
+        <h2>❓ Quiz Yourself</h2>
+        <div id="quiz-container">
+          <p id="quiz-question">Loading question...</p>
+          <ul id="quiz-options"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 CultureConnect Team | Built with Wiktionary + Wikiquote</p>
+    </footer>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
