@@ -37,7 +37,7 @@
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript (or React)
+- **Frontend**: HTML, CSS, JavaScript 
 - **Backend**: Python (Flask or FastAPI) or Node.js
 - **APIs**:
   - [Wiktionary API](https://en.wiktionary.org/)
