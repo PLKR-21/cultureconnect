@@ -1,50 +1,65 @@
-# 📚 LingoWiki - Language Learning Tool
+# 🌐 CultureConnect
 
-**LingoWiki** is a smart, multilingual language learning tool that helps users improve their vocabulary and comprehension through a combination of Wiktionary definitions and Wikiquote examples. It includes daily words, pronunciation guides, example quotes, quizzes, and multilingual support to enhance the learning experience.
+**Learn Languages Through Proverbs, Idioms, and Wisdom from Around the World**
 
----
-
-## 🌟 Key Features
-
-- 🔤 **Daily Word**
-  - Automatically fetches a new word each day from Wiktionary.
-  - Includes definition, part of speech, usage, and translations.
-
-- 🗣️ **Pronunciation Support**
-  - Plays pronunciation audio (if available via API or Text-to-Speech).
-
-- 📖 **Example Quotes**
-  - Relevant quotes from Wikiquote using the daily word or theme.
-
-- 🌍 **Multilingual Definitions**
-  - Users can choose languages and view translated meanings.
-
-- ❓ **Interactive Word Quizzes**
-  - Multiple-choice quizzes generated from word data to test learning.
+CultureConnect is a multilingual educational platform that teaches language not just through vocabulary, but through *context*, *culture*, and *expression*. Using the power of Wiktionary and Wikiquote, learners can explore proverbs, idioms, and famous quotes across different languages and cultures — gaining deeper understanding of how people think, speak, and express.
 
 ---
 
-## 🧑‍💻 Team Members 
+## ✨ Key Features
 
- Names                    
+- 📜 **Idiom/Proverb of the Day**  
+  Discover rich expressions from various languages and learn their meaning, origin, and usage.
 
- **P. Laxmikanth Reddy**  
- **V. Vinaykumar**          
- **B. Nikshay**           
- **Ch. Sofia**            
+- 🗣️ **Pronunciation Support**  
+  Hear how idioms are spoken with pronunciation audio or Text-to-Speech (TTS).
+
+- 🧠 **Cultural Quote Match**  
+  Match proverbs with quotes from famous personalities using Wikiquote, offering multiple cultural views of the same idea.
+
+- 🌍 **Cross-Language Expression Mapping**  
+  Explore equivalent idioms/phrases in different languages (e.g., English ↔ Hindi ↔ French).
+
+- ❓ **Quiz Mode**  
+  Test your understanding with contextual quizzes — match meanings, complete phrases, or identify cultural origins.
+
+---
+
+## 🔗 APIs Used
+
+- **[Wiktionary API](https://en.wiktionary.org/)**  
+  For fetching idioms, definitions, usage, translations, and etymology.
+
+- **[Wikiquote API](https://en.wikiquote.org/)**  
+  To retrieve culturally relevant quotes matching idioms.
+
+- **(Optional)**: Open-source AI/NLP tools for idiom classification, tone analysis, or smart quiz generation.
 
 ---
 
-## 🛠️ Tech Stack
+## 🧑‍💻 Project Structure
 
-- **Frontend**: HTML, CSS, JavaScript 
-- **Backend**: Python (Flask) or Node.js
-- **APIs**:
-  - [Wiktionary API](https://en.wiktionary.org/)
-  - [Wikiquote API](https://en.wikiquote.org/)
-- **Tools**:
-  - Git & GitLab for version control
-  - Postman or Insomnia for API testing
-  - Cron/Task scheduler for daily updates
-
----
+```bash
+cultureconnect/
+│
+├── backend/               # FastAPI backend
+│   ├── main.py
+│   ├── routers/
+│   ├── services/
+│   └── models/
+│
+├── frontend/              # React or Vanilla JS frontend
+│   ├── index.html
+│   ├── js/
+│   ├── css/
+│
+├── locales/               # Multilingual UI files
+│   ├── en.json
+│   ├── hi.json
+│   └── fr.json
+│
+├── assets/                # Icons, fonts, audio
+├── README.md
+├── CONTRIBUTING.md
+├── CHANGELOG.md
+└── requirements.txt
