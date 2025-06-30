@@ -1,5 +1,3 @@
----
-
 ## 🧑‍🤝‍🧑 Team Roles
 
 ### 🔌 P. Laxmikanth Reddy — API Integration Lead
