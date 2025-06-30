@@ -24,14 +24,14 @@
 
 ---
 
-## 🧑‍💻 Team Members & Assigned Roles
+## 🧑‍💻 Team Members 
 
-| Name                  | Role                                | Responsibilities |
-|-----------------------|--------------------------------------|------------------|
-| **P. Laxmikanth Reddy** | 🔌 API Integration Lead              | Integrate Wiktionary & Wikiquote APIs, data fetching, error handling, and JSON parsing |
-| **V. Vinaykumar**      | 🎨 Frontend Developer                | UI/UX design, daily word and quote display, quiz interface, pronunciation button |
-| **B. Nikshay**        | 🧠 Backend Developer & Quiz Logic    | Backend API endpoints, daily scheduler, quiz generator logic |
-| **Ch. Sofia**          | 📋 Project Manager & Content Curator | Project planning, quote/word validation, testing, user feedback collection |
+ Names                    
+
+ **P. Laxmikanth Reddy**  
+ **V. Vinaykumar**          
+ **B. Nikshay**           
+ **Ch. Sofia**            
 
 ---
 
