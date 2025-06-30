@@ -1,11 +1,3 @@
-# 🤝 Contributing to LingoWiki
-
-Thank you for showing interest in contributing to **LingoWiki** – a multilingual language learning app powered by Wiktionary and Wikiquote APIs. This guide will help you understand how to effectively contribute to this project.
-
----
-
-- [🧑‍🤝‍🧑 Team Roles](#-team-roles)
-
 ---
 
 ## 🧑‍🤝‍🧑 Team Roles
