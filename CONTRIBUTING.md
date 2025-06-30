@@ -2,7 +2,7 @@
 
 Welcome to **CultureConnect** — a project that bridges language and culture through idioms, proverbs, and global quotes. We’re excited that you want to contribute!
 
-This guide explains how our team works, how to contribute efficiently, and how we manage code and collaboration.
+This guide explains how our team works, how to contribute efficiently, and how we manage code and collaboration..
 
 ---
 
