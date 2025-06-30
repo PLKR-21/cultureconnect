@@ -17,7 +17,7 @@ This guide explains how our team works, how to contribute efficiently, and how w
 - Builds views for idioms, quotes, pronunciation, and quizzes
 - Implements **multilingual toggle** and UI responsiveness
 
-### 🧠 B. Nikhshay – Backend Developer & Quiz Logic
+### 🧠 B. Nikshay – Backend Developer & Quiz Logic
 - Sets up the **FastAPI** backend
 - Develops endpoints like `/api/idiom`, `/api/quote`, `/api/quiz`
 - Implements **context-based quiz generation**
